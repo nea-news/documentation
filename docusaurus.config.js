@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Nea News Documentation',
+  tagline: 'Keep Reading',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://nea-news.github.io',
@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Nea News', // Usually your GitHub org/user name.
+  organizationName: 'nea-news', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nea-news/documentation',
+            'https://github.com/nea-news/documentation/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nea-news/documentation',
+            'https://github.com/nea-news/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,8 +66,8 @@ const config = {
       navbar: {
         title: 'Nea News Documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Nea Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -94,23 +94,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Frontend Reference',
+                to: '/docs/frontend/intro',
+              }
             ],
           },
           {
