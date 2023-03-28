@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[3254],{9353:e=>{e.exports=JSON.parse('{"label":"weekly-update","permalink":"/documentation/blog/tags/weekly-update","allTagsPath":"/documentation/blog/tags","count":1}')}}]);

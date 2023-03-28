@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[2441],{9141:t=>{t.exports=JSON.parse('{"label":"sentiment-analysis","permalink":"/documentation/blog/tags/sentiment-analysis","allTagsPath":"/documentation/blog/tags","count":1}')}}]);
